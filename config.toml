@@ -1,6 +1,6 @@
 baseURL = 'https://codeforphilly.github.io/medassist-data/'
 languageCode = 'en-us'
-title = 'Medassist Data'
+title = 'MedAssist Data'
 theme = "hugo-empty-bootstrap"
 
 #[outputs]
