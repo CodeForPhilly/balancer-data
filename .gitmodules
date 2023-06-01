@@ -1,0 +1,3 @@
+[submodule "themes/hugo-empty-bootstrap"]
+	path = themes/hugo-empty-bootstrap
+	url = git@github.com:streamingrat/hugo-empty-bootstrap.git

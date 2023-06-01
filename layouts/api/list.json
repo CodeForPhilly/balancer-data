@@ -1,0 +1,12 @@
+{
+  "title": "{{.Title}}",
+  "description": "{{.Description}}",
+  "data":[
+    {{- $len := (len .Data.Pages) -}}
+    {{ range $i, $e := .Data.Pages -}}
+    {
+      "title": "{{$e.Title}}"
+    }{{ if ne (add $i 1) $len }},{{ end }}
+    {{ end -}}
+  ]
+}

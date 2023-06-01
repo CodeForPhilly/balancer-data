@@ -1,0 +1,33 @@
+baseURL = 'https://codeforphilly.github.io/medassist-data/'
+languageCode = 'en-us'
+title = 'Medassist Data'
+theme = "hugo-empty-bootstrap"
+
+#[outputs]
+#  page = ['HTML', 'JSON']
+
+# optional, but usually necessary
+[markup.goldmark.renderer]
+unsafe = true
+
+[menu]
+[[menu.main]]
+  name = 'API'
+  url = '/api/'
+  weight = 10
+
+[Params]
+  twitter = ""
+
+#  module mounts needed for bootstrap theme to copy font files and bootstrap.bundle.min.js, which includes popper
+[[module.mounts]]
+source = "static"
+target = "static"
+
+[[module.mounts]]
+source = "themes/hugo-empty-bootstrap/node_modules/bootstrap-icons/font/fonts"
+target = "static/css/fonts"
+
+[[module.mounts]]
+source = "themes/hugo-empty-bootstrap/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+target = "static/js/bootstrap.bundle.min.js"
