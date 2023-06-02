@@ -6,3 +6,8 @@ draft: false
 This site is a first pass at example data for the MedAssist application.
 
 Additional Data can be added with a pull request to https://github.com/codeforphilly/medassist-data/
+
+There are two things in the API:
+
+- [List of Medications](/medassist-data/api/medications/index.json)
+- [List of Symptoms](/medassist-data/api/symptoms/index.json)
