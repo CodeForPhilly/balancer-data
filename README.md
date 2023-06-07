@@ -14,7 +14,7 @@ The list of symptoms is at https://codeforphilly.github.io/balancer-data/api/sym
 
 
 # Adding Data
-To add data you do so one of two ways:
+To add data you can use the hugo command line tool to create a new file for you using the template.  Or you can create or edit an existing markdown file.
 
 ## Using the hugo command line tool
 If you are on a mac you can use [Homebrew](https://brew.sh) to install [Hugo](https://gethugo.io) by running `brew install hugo`.
