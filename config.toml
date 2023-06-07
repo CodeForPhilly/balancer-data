@@ -1,6 +1,6 @@
-baseURL = 'https://codeforphilly.github.io/medassist-data/'
+baseURL = 'https://codeforphilly.github.io/balancer-data/'
 languageCode = 'en-us'
-title = 'MedAssist Data'
+title = 'Balancer Data'
 theme = "hugo-empty-bootstrap"
 
 #[outputs]

@@ -16,7 +16,7 @@
     {{ template "_internal/twitter_cards.html" . }}
 
     {{ $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed") }}
-    {{ $style := resources.Get "scss/medassist.scss" | toCSS  $options | minify }}
+    {{ $style := resources.Get "scss/balancer.scss" | toCSS  $options | minify }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
 
     <link rel='shortcut icon' type='image/x-icon' href='{{.Site.BaseURL}}favicon.ico' />
