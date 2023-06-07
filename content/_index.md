@@ -9,5 +9,5 @@ Additional Data can be added with a pull request to https://github.com/codeforph
 
 There are two things in the API:
 
-- [List of Medications](/balancer-data/api/medications/index.json)
-- [List of Symptoms](/balancer-data/api/symptoms/index.json)
+- <i class="bi bi-capsule"></i> [List of Medications](/balancer-data/api/medications/index.json)
+- <i class="bi bi-thermometer-half"></i> [List of Symptoms](/balancer-data/api/symptoms/index.json)
